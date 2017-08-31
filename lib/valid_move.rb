@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(int)
+def valid_move?(board, int)
   if int < 1 || int > 9 then false
   else
     if position_taken? false
