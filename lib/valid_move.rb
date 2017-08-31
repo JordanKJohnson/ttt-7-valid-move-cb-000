@@ -2,7 +2,7 @@
 def valid_move?(board, int)
   if int < 1 || int > 9 then false
   else
-    if position_taken?(board,int) false
+    if position_taken?(board,int) then false
     else true
     end
   end
